@@ -1,6 +1,6 @@
 <?php
 /**
- * pi_products_info_url.php 
+ * pi_products_info_url.php
  * @copyright 2008 - https://www.clicshopping.org
  * @Brand : ClicShopping(Tm) at Inpi all right Reserved
  * @license GPL 2 & MIT
@@ -41,10 +41,10 @@
         $CLICSHOPPING_ProductsCommon = Registry::get('ProductsCommon');
         $CLICSHOPPING_Template = Registry::get('Template');
 
-        $products_url = $CLICSHOPPING_ProductsCommon->getProductsURLManufacturer();
+        $products_manufactuer_url = $CLICSHOPPING_ProductsCommon->getProductsURLManufacturer();
 
-        if (!empty($products_url)) {
-          $products_url = CLICSHOPPING::getDef('text_more_information', ['url' => CLICSHOPPING::link('redirect.php', 'action=url&goto=' . $products_url, true, false)] );
+        if (!empty($products_manufactuer_url)) {
+          $products_url = CLICSHOPPING::getDef('text_more_information', ['url' => CLICSHOPPING::link('redirect.php', 'action=url&goto=' . $products_manufactuer_url, true, false)] );
         }
 
         $products_info_url_content = '<!-- Start products_url -->' . "\n";
