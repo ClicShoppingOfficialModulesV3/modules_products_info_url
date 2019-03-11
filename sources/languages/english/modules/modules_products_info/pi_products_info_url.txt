@@ -2,4 +2,4 @@
  module_products_info_url_title = Do you want to display an extern url od the product ?
  module_products_info_url_description = Display an extern url
 
- text_more_information = For more information, please visit this products <a href="{url}" target="_blank"><u>webpage</u></a>.
+ text_more_information = For more information, please visit this products <a href="{url}" target="_blank"  rel="noreferrer"><u>webpage</u></a>.
