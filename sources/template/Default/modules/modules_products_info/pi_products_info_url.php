@@ -130,7 +130,7 @@
     }
 
     public function keys() {
-      return array (
+      return array(
         'MODULE_PRODUCTS_INFO_URL_STATUS',
         'MODULE_PRODUCTS_INFO_URL_CONTENT_WIDTH',
         'MODULE_PRODUCTS_INFO_URL_POSITION',
